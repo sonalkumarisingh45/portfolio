@@ -1,0 +1,230 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0d1b2a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1000;
+}
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+header nav a {
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+header nav a:hover {
+    color: #778da9;
+}
+/* main */
+body{
+    background-color: #e0e1dd;
+}
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+}
+
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    background-attachment: fixed;
+    
+}
+
+.about-left {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; /* Align content to the left */
+}
+
+.about-left h3 {
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom: 20px;
+    color: #0d1b2a;
+}
+.about-left h2 {
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+    color: #0d1b2a;
+    
+}
+.about-left p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about-right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+
+}
+.about-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #0d1b2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about-container button:hover {
+    background: #778da9;
+}
+
+  
+  /* About Section Styling */
+  .about-section {
+    background: linear-gradient(135deg, #0d1b2a, #3a4a6a); /* Linear gradient from #0d1b2a to a lighter shade */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .intro-text{
+    margin-top: 80px;
+  }
+  .intro-text, .details-text, .closing-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+  }
+  
+  .intro-text strong, .details-text strong {
+    color: #ffec3d; /* Bright yellow for emphasis */
+  }
+  
+  .details-text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .closing-text {
+    font-style: italic;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .intro-text, .details-text, .closing-text {
+      font-size: 1rem;
+    }
+  }
+  /* Education Section Styling */
+.education-section {
+  background: linear-gradient(135deg, #0d1b2a, #3a4a6a); /* Smoother gradient */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.education-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+  margin-top: 80px;
+}
+
+.education-text strong {
+  color: #ffec3d; /* Highlighted text in bright yellow */
+}
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-text {
+    font-size: 1rem;
+  }
+}
+hr{
+ 
+    border-style: double;
+    border-color: #e0e1dd;
+    border-width: 2px;
+    margin: 0 auto;
+    width: 100%;
+    height: 2px;
+    
+}
